@@ -1,0 +1,164 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+
+#container {
+	width: 1000px;
+	margin: 0 auto 0 auto;
+}
+
+
+#header {
+
+}
+
+#main {
+
+	width: 600px;
+	float: left;
+	background-color: white;
+	margin: 0 10px 0 0;
+	padding: 15px;
+
+}
+
+#sidebar {
+	width: 300px;
+	float: left;
+	background-color: white;
+	padding: 15px;
+
+}
+
+#footer {
+	padding: 30px 0 0 0;
+}
+
+img {
+
+}
+
+.imagecaption {
+	font-weight: bold;
+}
+
+.imagecredits {
+	color: #808080;
+}
+
+h1 {
+
+	font-family: "Lato", "Times New Roman", Times, serif;
+	font-size: 45px;
+	font-weight: 800;
+	
+}
+
+.tagline {
+	font-weight: bold;
+	margin: -30px 0 30px 0;
+}
+
+h2 {
+
+	font-family: "Lato", "Times New Roman", Times, serif;
+	padding: 0 0 0 0;
+
+}
+
+.surf {
+	margin: 0;
+	padding: 0 0 5px 0;
+	font-weight: 800;
+}
+
+.read {
+	margin: 0;
+	padding: 50px 0 5px 0;
+	font-weight: 800;
+}
+
+.meditate {
+
+	margin: 0 0 20px 0;
+	padding: 50px 0 0 0;
+	font-weight: 800;
+}
+
+p {
+
+	font-family: "Lato", "Times New Roman", Times, serif;
+	font-size: 12px;
+}
+
+.chrisimageheader {
+	font-weight: bold;
+	line-height: 20px;
+}
+
+.followme {
+	padding: 10px 0 0 0;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.quote {
+
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.verticalLine {
+    border-left: thick solid #d3d3d3;
+
+}
+
+
+blockquote {
+	font-weight: bold;
+	font-size: 12px;
+	margin: 0 0 0 8px;
+}
+
+hr {
+	display: block;
+    border-width: 1px;
+    width: 550px;
+    margin: 0;
+    border-color: #dcdcdc;
+    background-color: #dcdcdc;
+}
+
+a {
+	color: #FF4500;
+	text-decoration: none;
+}
+
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+
